@@ -22,4 +22,4 @@ A digest update that moves the SHA to the head of `main` and keeps `# main`, as 
 
 ## Link to the Renovate issue or Discussion
 
-Not posted yet. The draft is [MPV/renovate#25](https://github.com/MPV/renovate/issues/25).
+- Discussion: [renovatebot/renovate#46877](https://github.com/renovatebot/renovate/discussions/46877)
