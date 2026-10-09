@@ -14,6 +14,8 @@ Renovate looks the dependency up with the `github-tags` datasource. `main` isn't
 
 > Could not determine new digest for update (github-tags package anthropics/skills)
 
+See the Dependency Dashboard, #1.
+
 ## Expected behavior
 
 A digest update that moves the SHA to the head of `main` and keeps `# main`, as Renovate does for `uses: owner/action@<sha> # main` in GitHub Actions workflows.
