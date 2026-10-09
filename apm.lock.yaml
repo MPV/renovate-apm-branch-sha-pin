@@ -1,0 +1,37 @@
+lockfile_version: '1'
+apm_version: 0.33.0
+dependencies:
+- repo_url: anthropics/skills
+  name: doc-coauthoring
+  host: github.com
+  resolved_commit: b0cbd3df1533b396d281a6886d5132f623393a9c
+  resolved_ref: b0cbd3df1533b396d281a6886d5132f623393a9c
+  version: unknown
+  virtual_path: skills/doc-coauthoring
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/doc-coauthoring
+  - .claude/skills/doc-coauthoring/SKILL.md
+  deployed_file_hashes:
+    .claude/skills/doc-coauthoring/SKILL.md: sha256:2e47d78846faeea4a56e9809c52700087a15a2155a3f293a3efbaded81398ef4
+  content_hash: sha256:b964e4c3ffe13f66f76dd7919073e60c7aec622cd8a8363bb36323188100cf8e
+deployments:
+- kind: project-relative
+  target: claude
+  value: .claude/skills/doc-coauthoring
+  runtime: null
+  scope: project
+  owners:
+  - anthropics/skills/skills/doc-coauthoring
+  active_owner: anthropics/skills/skills/doc-coauthoring
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/doc-coauthoring/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - anthropics/skills/skills/doc-coauthoring
+  active_owner: anthropics/skills/skills/doc-coauthoring
+  content_hash: sha256:2e47d78846faeea4a56e9809c52700087a15a2155a3f293a3efbaded81398ef4

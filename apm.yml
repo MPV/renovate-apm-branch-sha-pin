@@ -1,0 +1,6 @@
+name: renovate-apm-branch-sha-pin
+version: 1.0.0
+targets: [claude]
+dependencies:
+  apm:
+    - anthropics/skills/skills/doc-coauthoring#b0cbd3df1533b396d281a6886d5132f623393a9c # main
