@@ -14,7 +14,7 @@ Renovate looks the dependency up with the `github-tags` datasource. `main` isn't
 
 > Could not determine new digest for update (github-tags package anthropics/skills)
 
-See the Dependency Dashboard, #1.
+See the [Dependency Dashboard](https://github.com/MPV/renovate-apm-branch-sha-pin/issues/1).
 
 ## Expected behavior
 
@@ -22,4 +22,4 @@ A digest update that moves the SHA to the head of `main` and keeps `# main`, as 
 
 ## Link to the Renovate issue or Discussion
 
-Not posted yet. The draft is MPV/renovate#25.
+Not posted yet. The draft is [MPV/renovate#25](https://github.com/MPV/renovate/issues/25).
