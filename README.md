@@ -23,3 +23,4 @@ A digest update that moves the SHA to the head of `main` and keeps `# main`, as 
 ## Link to the Renovate issue or Discussion
 
 - Discussion: [renovatebot/renovate#46877](https://github.com/renovatebot/renovate/discussions/46877)
+- Fix: [renovatebot/renovate#46881](https://github.com/renovatebot/renovate/pull/46881)
